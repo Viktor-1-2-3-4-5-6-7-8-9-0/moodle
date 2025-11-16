@@ -18,16 +18,17 @@
 
 ```text
 blocks/calculator/
-├── classes/              # Основные классы (QuadraticSolver, CalculatorLog)
-├── form/                 # Форма ввода коэффициентов (CalculatorForm)
-├── output/               # Рендеринг UI и истории (CalculatorRenderer)
-├── db/                   # Определение таблицы БД (install.xml)
-├── lang/                 # Языковые файлы (en, ru)
-├── history.php           # Страница истории вычислений
-├── block_calculator.php  # Основной класс блока Moodle
-├── styles.css            # Стили блока
-├── version.php           # Версия плагина
-└── README.md             # Эта документация
+├── classes/                    # Основные классы
+│   │── QuadraticSolver.php     # Решение уравнений
+│   │── form/                   # Форма ввода коэффициентов
+│   └── output/                 # Рендеринг UI и истории                     
+├── db/                         # База данных
+├── lang/                       # Языковые файлы
+├── history.php                 # Страница истории вычислений
+├── block_calculator.php        # Основной класс блока Moodle
+├── styles.css                  # Стили блока
+└── version.php                 # Версия плагина
+
 ```
 
 
